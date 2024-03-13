@@ -1,5 +1,7 @@
 mod chap1;
 
+fn main() {}
+
 #[macro_export]
 macro_rules! assert_stdout_eq {
     ($test:expr, $expected:literal) => {{
