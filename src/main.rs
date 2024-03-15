@@ -1,4 +1,5 @@
 mod chap1;
+mod chap2;
 
 fn main() {}
 
