@@ -8,7 +8,7 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
     (bool_param, int_param)
 }
 
-fn transpose(input: Matrix) -> (Matrix) {
+fn transpose(input: Matrix) -> Matrix {
     Matrix(input.0, input.2, input.1, input.3)
 }
 
